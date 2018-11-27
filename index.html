@@ -1,0 +1,96 @@
+<!DOCTYPE html> <html><head>
+    <title>Your Title</title>
+<style>body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("http://rs146.pbsrc.com/albums/r270/DahliaxGraphics/Glitter/StarryNight.gif~c200");
+}
+
+#donate {
+    background: red;
+}
+#eagles {
+    background: blue;
+    color: white;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}</style></head>
+<body>
+    <div id="header">
+        <h1> Mariyah Bobino</h1>
+        <p> Make America sweet again</p>
+    </div>
+    <div id="donate">
+        <h2>Donate Now</h2>
+        <p>Invest $1 billion into Beyonce ideas.</p>
+        <button>Donate</button>
+    </div>
+    <div id="pics">
+    <!-- Replace images -->
+        <img src="http://fivewaystowellbeing.org/wp-content/uploads/2018/04/shutterstock_282305945.jpg">
+        <img src="https://images.theconversation.com/files/180401/original/file-20170731-22175-67v3q2.jpg?ixlib=rb-1.1.0&amp;rect=0%2C589%2C5472%2C2654&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop">
+        <img src="https://nwn.blogs.com/.a/6a00d8341bf74053ef015432b2787a970c-500wi">
+    </div>
+    <div id="eagles">
+        <h2>Your Campaign Initiative</h2>
+        <p> I promise to macke this world called Eearth a better place</p>
+    </div>
+
+
+</body></html>
